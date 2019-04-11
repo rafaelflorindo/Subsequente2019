@@ -1,0 +1,2 @@
+
+Desenvolver um algoritmo que leia a quantidade de pessoas, a média de peso medio das pessoas, a quantidade de bagagem e o peso médio das bagagens. O custo do frete de uma aeronave é dada pela quantidade de pessoas, quantidade de bagagem, peso médio das pessoas, peso médio das bagagens. Preço da pessoa (500.00), preço por bagagem (70.00), peso pessoa (100.00) peso bagagem (20.00). Crie um algoritmo em pseudocódigo e em fluxograma que calcule o valor total do frete.

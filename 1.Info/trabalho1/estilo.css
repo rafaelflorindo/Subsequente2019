@@ -1,0 +1,49 @@
+.topo
+{
+	width: 100%;
+	height: 150px;
+	background-color: #DEB887;
+}
+a{
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+}
+.menu
+{
+	width: 152px;
+	background-color: #DEB887;
+	float: left;
+}
+ul{
+	list-style: none;
+	margin: 0;	
+ 	padding: 0px;	
+}
+li{
+	border: 1px solid black;
+	width:145px;
+	height:25px;
+	padding-top:5px; 
+	padding-left:5px; 
+}
+.conteudo
+{
+	width: 83%;	
+	float: left;
+	margin: 0px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	border:1px solid silver;		
+}
+.rodape
+{
+	width: 100%;
+	height: 300px;
+	background-color: #DEB887;
+	margin: 0;
+	padding: 0px;
+	float: left;		
+}

@@ -1,0 +1,18 @@
+algoritmo custoViagem
+var
+	inteiro: kmRodado, quantidadeCombustivel, kmRodadoTotal, combustivelTotal
+	real: precoCombustivel, totalViagem
+inicio
+	escreva ("Informe a distancia percorrida")
+	leia(kmRodado)
+	escreva ("Informe a quantidade de combustível gasto)
+	leia (quantidadeCombustivel)
+	escreva ("Informe o preço do combustível)
+	leia (precoCombustivel)
+	kmRodadoTotal <- kmRodado * 2
+	combustivelTotal <- quantidadeCombustivel * 2
+	totalViagem <- combustivelTotal * precoCombustivel
+	
+	escreva("Você rodou ", kmRodadoTotal , "km, com ", combustivelTotal, "litros de combústivel)
+	escreva("O custo total da viagem ficou em R$ ", totalViagem)
+fim.

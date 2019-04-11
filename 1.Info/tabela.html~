@@ -1,0 +1,42 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Trabalhando com tabelas
+	</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td align="center"><strong>Código</strong></td>
+			<td align="center"><b>Título</b></td>
+			<td align="center"><b>Descrição</b></td>
+			<td align="center"><b>Publicado em:</b></td>
+			<td align="center"><b>Local</b></td>
+			<td align="center"><b>Ação</b></td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Bloquei da Av. Colombo</td>
+			<td>Avenida Colombo ...</td>
+			<td>08/03/2019</td>
+			<td>Capa</td>		
+			<td>
+				<img src="editar.jpeg" width="20px" height="20px">
+				<img src="excluir.jpeg" width="20px" height="20px">
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Maringá futebol clube perde para o Londrinense</td>
+			<td>O time de futebol de salão ...</td>
+			<td>05/02/2019</td>
+			<td>Capa Esporte</td>		
+			<td>
+				<img src="editar.jpeg" width="20px" height="20px">
+				<img src="excluir.jpeg" width="20px" height="20px">
+				</td>	
+		</tr>
+	</table>
+</body>
+</html>

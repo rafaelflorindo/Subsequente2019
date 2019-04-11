@@ -1,0 +1,90 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trabalhando com box</title>
+<style type="text/css">
+body{
+	margin: 0;
+	padding: 0;
+}
+.corpo{
+	/*border: 1px solid red;*/
+	width: 98%;
+	height: 100%;
+	background-color: white;
+}
+.cabecalho{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 10%;
+	background-color: #CDC5BF;
+	padding:5px;
+}	
+.conteudo{
+	margin: 0 auto;/*margem para fora*/
+	border: 1px dotted silver;
+	width: 80%;
+	height: 70%;
+	background-color: #FFF5EE;
+	padding: 15px;/*espaço da borda para dentro*/
+}
+.rodape{
+	/*border: 1px solid silver;*/
+	width: 100%;
+	height: 10%;
+	background-color: #CDC5BF;
+	padding: 5px;
+}	
+		.caixaEsquerda{
+			width: 225px;/*largura*/
+			height: 225px;/*altura*/
+			border: 1px dashed silver;
+			padding: 5px;/*espaço interno*/
+			float: left;/*flutuar*/
+			margin: 10px;
+		}
+		img{
+			border: 1px solid black;
+		}
+		.caixaCentral{
+			width: 225px;
+			height: 225px;
+			border: 1px dashed silver;
+			padding: 5px;
+			float: left;
+			margin: 10px
+		}
+		.caixaDireita{
+			width: 225px;
+			height: 225px;
+			border: 1px dashed silver;
+			padding: 5px;
+			float: left;
+			margin: 10px;
+		}	
+</style>
+</head>
+<body>
+<div class="corpo"><!-- corpo da página -->
+	<div class="cabecalho"><!-- cabeçalho da página -->
+		LOGO DO SITE
+	</div><!-- fechando cabeçalho da página -->
+	
+	<div class="conteudo"><!-- conteudo da página -->
+			<div class="caixaEsquerda">
+		<img src="imagens/carro1.jpeg">
+	</div>
+	<div class="caixaCentral">
+		<img src="imagens/carro2.png">
+	</div>
+	<div class="caixaDireita">
+		<img src="imagens/carro3.jpeg">
+	</div>
+	</div><!-- fechando conteúdo da página -->
+	
+	<div class="rodape"><!-- conteudo do rodapé -->
+		RODAPÉ DO SITE
+	</div><!-- fechando o rodapé da página -->
+</div><!-- fechando o corpo da página -->
+</body>
+</html>
