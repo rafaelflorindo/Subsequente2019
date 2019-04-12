@@ -70,12 +70,25 @@ textarea{
 	border: 1px solid silver;
 }
 
-/* Quando o contorle receber foco...*/
-input:focus, textarea:focus {
+/* Quando o campo receber foco...*/
+input:focus{
+    background: #ffc;
+}
+textarea:focus {
     background: #ffc;
 }
 
-
+.submit{
+	background-color: #66ff88;
+	width:100%;
+}
+.reset{
+	background-color: #66ff88;
+	width:100%
+}
+.caixaFormulario{
+	width: 600px;
+}
 
 
 
