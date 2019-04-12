@@ -1,0 +1,57 @@
+1 - Construa um algoritmo que leia dois números inteiros e determine qual dos dois números é o maior. Considere que os dois números são diferentes.
+********** Resolução:
+entrada: n1 e n2
+processamento: verificar o maior número
+saída: imprimir maior
+
+algoritmo maiorValor
+var
+	n1, n2: inteiro
+inicio
+	escreva("Informe o valor 1")
+	leia(n1)
+	escreva("Informe o valor 2")
+	leia(n2)
+	se (n1 > n2) entao
+		escreva("O valor 1 é o maior")
+	senao
+		escreva("O valor 2 é o maior")
+	fim_se
+fim.
+----------------------------------
+2 - Faça um algoritmo que leia três números e determine quantos são 
+iguais.
+
+algoritmo contarIguais
+var
+	a, b, c: inteiro
+inicio
+	escreva("Informe A")
+	leia(a)
+	escreva("Informe B")
+	leia(b)
+	escreva("Informe C")
+	leia(c)
+	se (a = b) entao
+		se (b = c) entao
+			escreva ("3 valores iguais")
+		senao
+			se(a = c) entao
+			senao
+				escreva ("2	 valores iguais A e B")
+			fim_se
+		fim_se
+	senao
+		se (b = c) entao
+			escreva ("Os 2 valores B e C são iguais")
+		senao
+			se (a = c) entao
+				escreva ("Os 2 valores A e C são iguais")
+			senao
+				escreva("O 3 valores são diferentes")
+			fim_se
+		fim_se
+	fim_se
+fim.
+----------------------------------
+3 - Faça um algoritmo que leia um número inteiro e diga se ele é positivo ou negativo.
