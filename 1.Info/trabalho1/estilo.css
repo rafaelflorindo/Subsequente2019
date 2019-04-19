@@ -1,8 +1,13 @@
+body{
+	margin: 0;
+}
 .topo
 {
 	width: 100%;
+	margin:0;
 	height: 100px;
-	background-color: #DEB887;
+	background-color: #006400;
+	color: white;
 }
 a{
 	color: black;
@@ -21,11 +26,15 @@ ul{
  	padding: 0px;	
 }
 li{
-	border: 1px solid black;
+	border: 1px solid #D2B48C;
 	width:145px;
 	height:25px;
 	padding-top:5px; 
 	padding-left:5px; 
+}
+li:hover{
+	background-color: #D2691E;
+	border-left: 3px solid red;
 }
 .conteudo
 {
@@ -41,24 +50,29 @@ li{
 .rodape
 {
 	width: 100%;
-	height: 150px;
-	background-color: #DEB887;
+	height: 80px;
+	background-color: #006400;
 	margin: 0;
-	padding: 0px;
+	padding-top: 20px;
 	float: left;		
 }
+.caixaFormulario{
+	width: 600px;
+}
 label{
-	width: 100px;
-	float: left;
-	/*display: block;	*/
+	width: 300px;
+	/*float: left;*/
+	display: block;	
 	font-weight: bold;/*negrito*/
 	margin-top: 15px;
 }
 input{
-	width: 500px;
+	width: 100%;	
 	height: 40px;	
 	font-size: 15px;
 	margin-top: 5px;
+}
+input[type=text]{
 	border: 1px solid silver;
 	color: black;			
 }
@@ -69,7 +83,6 @@ textarea{
 	margin-top: 5px;
 	border: 1px solid silver;
 }
-
 /* Quando o campo receber foco...*/
 input:focus{
     background: #ffc;
@@ -77,19 +90,17 @@ input:focus{
 textarea:focus {
     background: #ffc;
 }
-
-.submit{
+/*formatando tipos de caixas*/
+input[type=submit]{
 	background-color: #66ff88;
-	width:100%;
 }
-.reset{
+input[type=reset]{
 	background-color: #66ff88;
-	width:100%
 }
-.caixaFormulario{
-	width: 600px;
+input[type=number]{
+	width: 60px;
 }
-
-.quantidade{} input[type=radio]{width: 10px;}
-
-
+input[type=radio]{
+	width: 10px;
+	height: 15px;
+}
